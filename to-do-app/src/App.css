@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.todo-input {
+  font-size: 35px;
+  font-family: cursive;
+  color: crimson;
+  border: none;
+  width: 100%;
+}
+
+.todo-input:focus {
+  outline: none; 
+}
+
+.done {
+  text-decoration: line-through;
+  color: lightseagreen;
+}
+
+.todo {
+  margin: 32px 0px; 
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: cursive;
+  color: crimson;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #d9d9d9;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border: 1px solid #fff;
+  transition: all 300ms ease; 
+}
+
+.checkbox:hover {
+  opacity: 0.8;
+}
+
+.delete {
+  margin-left: auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  opacity: 0.8;
+}
