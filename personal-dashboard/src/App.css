@@ -1,0 +1,83 @@
+main {
+  max-width: 100%;
+  margin: 0 auto; 
+  padding: 40px; 
+  color: steelblue; 
+  background-color: aliceblue;
+  font-family: fantasy; 
+  text-align: center;
+} 
+
+section {
+  display: flex; 
+}
+
+@media (max-width: 600px) {
+  section {
+    display: flex;
+    text-align: center;
+  }
+}
+
+h3 {
+  text-transform: centre; 
+  letter-spacing: 2px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+a {
+  display: flow-root;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  color: cadetblue; 
+  text-align: left;
+}
+
+.todo-input {
+  font-size: 24px;
+  border: none;
+  width: 100%;
+  background-color: aliceblue;
+  font-family: fantasy;
+  outline: none; 
+  text-align: center;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todo {
+  margin: 32px 32px;
+  display: flex;
+  align-items: right;
+  font-size: 24px;
+  text-align: center;
+}
+
+.checkbox {
+  width: 24px; 
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  background: steelblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  transition: all 300ms ease;
+}
+
+.delete {
+  margin-left: auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkbox:hover, .delete:hover {
+  opacity: 0.3;
+}
