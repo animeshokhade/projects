@@ -1,1 +1,1 @@
-*mint using an algo or wait for Elon Musk's next tweet 📉📈*
+**mint using an algo or wait for Elon Musk's next tweet 📉📈**
