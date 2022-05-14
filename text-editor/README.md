@@ -1,1 +1,1 @@
-** Text Editor (with text retention) ✍🏼 ** 
+**Text Editor (with text retention) ✍🏼** 
