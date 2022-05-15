@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Easy Text Saver",
+    "version": "1.0",
+    "description": "Paste your highlighted text into a file from anywhere on the web.",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ], 
+    "icons": {
+        "48": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html", 
+        "default_title": "Easy Text Saver"
+    }, 
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    }
+}
