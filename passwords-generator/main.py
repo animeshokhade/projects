@@ -1,12 +1,17 @@
-import requests
-from pprint import pprint
+import random
 
-API_Key = 'b960e657d88a137a88622a486f8bd92c'
+print('Generate your Password')
 
-city = input('Enter a City: ')
-base_url = 'http://api.openweathermap.org/data/2.5/weather?appid=' + API_Key + '&q=' + city
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*().,?0123456789'
 
-weather_data = requests.get(base_url).json()
+number = int(input('Enter number of Passwords to generate: '))
 
-pprint(weather_data)
+length = int(input('Input your password length: '))
 
+print('\n Claim your passwords: ')
+
+for pwd in range(number):
+    passwords = ''
+    for c in range(length): 
+        passwords += random.choice(chars)
+    print(passwords) 
