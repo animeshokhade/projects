@@ -1,1 +1,1 @@
-*Are you watching closely? 🪙*
+*Are you watching closely? 🧙*
