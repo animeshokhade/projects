@@ -1,1 +1,1 @@
-*fetch your avatar 😎*
+*know your climes 🌩*

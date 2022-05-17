@@ -1,11 +1,12 @@
-import profile
 import requests
-from bs4 import BeautifulSoup as bs
+from pprint import pprint
 
-github_user = input('Provide Github Username: ')
-url = 'https://github.com/' + github_user
+API_Key = 'b960e657d88a137a88622a486f8bd92c'
 
-r = requests.get(url)
-soup = bs(r.content, 'html.parser') 
-profile_image = soup.find('img', {'alt': 'Avatar'})['src']
-print(profile_image)
+city = input('Enter a City: ')
+base_url = 'http://api.openweathermap.org/data/2.5/weather?appid=' + API_Key + '&q=' + city
+
+weather_data = requests.get(base_url).json()
+
+pprint(weather_data)
+
