@@ -1,0 +1,1 @@
+*lingual transmutation ➾ bhashāī rūpāntaran*
