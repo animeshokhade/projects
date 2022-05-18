@@ -1,1 +1,1 @@
-*bon appétit voracious viper*
+*bon appétit voracious viper 🐍*
