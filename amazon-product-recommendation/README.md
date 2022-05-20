@@ -5,6 +5,6 @@
 
 **Amazon Ratings Data** 
 <br>
-Domain -> Electronics 
+Domain --> Electronics 
 <br>
-Source => http://jmcauley.ucsd.edu/data/amazon/
+http://jmcauley.ucsd.edu/data/amazon/
